@@ -1,0 +1,13 @@
+ ~ % cd Desktop/kadai
+ kadai % mkdir git_challenge
+ kadai % cd git_challenge
+ git_challenge % touch hello_world.txt
+ git_challenge % vi hello_world.txt
+ git add hello_world.txt 
+ git_challenge % git commit -m "hello_world.txtを追加"
+[main 0e33916] hello_world.txtを追加
+ 1 file changed, 1 deletion(-)
+ git_challenge % vi hello_world.txt
+ git_challenge % git log --oneline
+0e33916 (HEAD -> main) hello_world.txtを追加
+006069c 日本語訳を追記
